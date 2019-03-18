@@ -1,11 +1,13 @@
-from deckOfCards.player import Player
+from deckOfCards.hand import Hand
 
 
-class Dealer(Player):
+class Dealer(Hand):
     def __init__(self, cards):
         self.hidden_card = cards[0:1]
-        Player.__init__(self, cards[1:])
+        Hand.__init__(self, cards[1:])
 
     def reveal(self):
-        self.cards.append(self.hidden_card)
-        return self.total()
+        self.cards.extend(self.hidden_card)
+        self.hidden_card = []
+        return self.is_bust()
+

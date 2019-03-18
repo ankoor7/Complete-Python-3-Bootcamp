@@ -1,4 +1,4 @@
-class Player():
+class Hand():
     def __init__(self, new_cards=[]):
         self.cards = []
         self.take_cards(new_cards)
@@ -12,6 +12,6 @@ class Player():
     def is_bust(self):
         return self.total() > 21
 
-    def show_hand(self):
+    def show(self):
         return [str(card) for card in self.cards]
 

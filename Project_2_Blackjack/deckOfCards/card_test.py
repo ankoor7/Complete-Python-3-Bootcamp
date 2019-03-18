@@ -1,13 +1,13 @@
 import unittest
 from deckOfCards.card import Card
-from deckOfCards import Constants
+from deckOfCards import constants
 
 
-class MyTestCase(unittest.TestCase):
+class CardTest(unittest.TestCase):
 
     @classmethod
     def setUp(self):
-        self.two_of_hearts = Card(Constants.HEARTS, 'Two')
+        self.two_of_hearts = Card(constants.HEARTS, 'Two')
 
     def test_card_has_suit(self):
         self.assertEqual('Two', self.two_of_hearts.rank)
