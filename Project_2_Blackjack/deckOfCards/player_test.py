@@ -1,37 +1,54 @@
 import unittest
-from .player import Player
-from .card import Card
-from deckOfCards import constants
+from unittest.mock import Mock
+from deckOfCards.player import Player
+from deckOfCards.card import Card
+from deckOfCards.constants import HEARTS
+from deckOfCards.hand import Hand
+from deckOfCards.stack import Stack
+from deckOfCards.deck import Deck
 
 
 class PlayerTest(unittest.TestCase):
     @classmethod
     def setUp(self):
-        self.cards = [Card(constants.HEARTS, 'Two'), Card(constants.HEARTS, 'Three')]
-        self.more_card = [Card(constants.HEARTS, 'Queen'), Card(constants.HEARTS, 'King')]
+        self.cards = [Card(HEARTS, 'Two'), Card(HEARTS, 'Three')]
+        self.more_cards = [Card(HEARTS, 'Queen'), Card(HEARTS, 'King')]
         self.cash = 400
+        self.deck = Deck()
 
     def test_instantiation(self):
-        this_player = Player(self.cash, self.cards)
-        self.assertEqual(2, len(this_player.cards))
-        self.assertEqual(400, this_player.cash)
-
-    def test_bet(self):
-        this_player = Player(self.cash, self.cards)
-        result = this_player.bet(100)
-        self.assertEqual(300, this_player.cash)
-        self.assertEqual(100, result["bet"])
-        self.assertEqual(300, result["stack_value"])
-
-    def test_collect(self):
-        this_player = Player(self.cash, self.cards)
-        result = this_player.collect(100)
-        self.assertEqual(500, this_player.cash)
-        self.assertEqual(500, result["stack_value"])
+        this_player = Player(self.deck, self.cash)
+        self.assertIsInstance(this_player, Hand)
+        self.assertIsInstance(this_player.stack, Stack)
+        self.assertFalse(this_player.is_bust())
 
     def test_must_have_cash(self):
         with self.assertRaises(Exception):
             Player()
+
+    def test_check_is_bust(self):
+        is_bust_mock = Mock(return_value=True)
+        this_player = Player(self.deck, self.cash)
+        this_player.is_bust = is_bust_mock
+        self.assertTrue(this_player.is_bust())
+
+
+    def test_play_turn(self):
+        this_player = Player(self.deck, self.cash)
+        this_player.check_is_bust = Mock()
+        self.deck.deal = Mock(return_value=self.more_cards[0])
+
+        this_player.play_turn()
+
+        self.assertIn(self.more_cards[0], this_player.cards)
+
+    def test_play_turn_when_bust(self):
+        this_player = Player(self.deck, self.cash)
+        self.deck.deal = Mock(return_value=self.more_cards[0])
+
+        this_player.is_bust = Mock(return_value=True)
+        this_player.play_turn()
+        self.assertNotIn(self.more_cards[0], this_player.cards)
 
 
 if __name__ == '__main__':

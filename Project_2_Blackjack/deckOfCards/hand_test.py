@@ -22,10 +22,10 @@ class HandTest(unittest.TestCase):
     def test_total(self):
         this_hand = Hand()
         this_hand.take_cards([Card(constants.HEARTS, 'Two'), Card(constants.HEARTS, 'Three')])
-        self.assertEqual(5, this_hand.total())
+        self.assertEqual(5, this_hand.hand_value())
 
         this_hand.take_cards([Card(constants.HEARTS, 'Four')])
-        self.assertEqual(9, this_hand.total())
+        self.assertEqual(9, this_hand.hand_value())
 
     def test_is_bust(self):
         this_hand = Hand()

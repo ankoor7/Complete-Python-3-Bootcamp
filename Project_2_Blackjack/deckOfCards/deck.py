@@ -11,7 +11,7 @@ class Deck:
     def shuffle(self):
         shuffle(self.stack)
 
-    def deal(self, n):
+    def deal(self, n=1):
         cards = self.stack[0:n]
         self.stack = self.stack[n:]
         return cards
