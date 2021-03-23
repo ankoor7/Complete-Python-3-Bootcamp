@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee6a9b8a-6c4a-43e9-8275-3f26619ad30a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blackjack_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deckOfCards/stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deckOfCards/stack_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game_round.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game_round_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-Python Object and Data Structure Basics/03-Print Formatting with Strings.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../00-Python Object and Data Structure Basics/03-Print Formatting with Strings.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-Python Object and Data Structure Basics/04-Lists.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../00-Python Object and Data Structure Basics/04-Lists.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Methods and Functions/.ipynb_checkpoints/03-Function Practice Exercises-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Methods and Functions/.ipynb_checkpoints/03-Function Practice Exercises-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Methods and Functions/01-Methods.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Methods and Functions/01-Methods.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Methods and Functions/03-Function Practice Exercises.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Methods and Functions/03-Function Practice Exercises.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-Methods and Functions/08-Functions and Methods Homework.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../03-Methods and Functions/08-Functions and Methods Homework.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Milestone Project - 1/.ipynb_checkpoints/02-Milestone Project 1 - Walkthrough Steps Workbook-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Milestone Project - 1/.ipynb_checkpoints/02-Milestone Project 1 - Walkthrough Steps Workbook-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Milestone Project - 1/02-Milestone Project 1 - Walkthrough Steps Workbook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04-Milestone Project - 1/04-OPTIONAL -Milestone Project 1 - Advanced Solution.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../04-Milestone Project - 1/04-OPTIONAL -Milestone Project 1 - Advanced Solution.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-Object Oriented Programming/.ipynb_checkpoints/02-Object Oriented Programming Homework-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Object Oriented Programming/.ipynb_checkpoints/02-Object Oriented Programming Homework-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-Object Oriented Programming/.ipynb_checkpoints/04-OOP Challenge-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Object Oriented Programming/.ipynb_checkpoints/04-OOP Challenge-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-Object Oriented Programming/01-Object Oriented Programming.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Object Oriented Programming/01-Object Oriented Programming.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Object Oriented Programming/02-Object Oriented Programming Homework.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-Object Oriented Programming/04-OOP Challenge.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Object Oriented Programming/04-OOP Challenge.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06-Modules and Packages/Useful_Info_Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../06-Modules and Packages/Useful_Info_Notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-Errors and Exception Handling/.ipynb_checkpoints/02-Errors and Exceptions Homework-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../07-Errors and Exception Handling/.ipynb_checkpoints/02-Errors and Exceptions Homework-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-Errors and Exception Handling/01-Errors and Exceptions Handling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../07-Errors and Exception Handling/01-Errors and Exceptions Handling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-Errors and Exception Handling/02-Errors and Exceptions Homework.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../07-Errors and Exception Handling/02-Errors and Exceptions Homework.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08-Milestone Project - 2/02-Milestone Project 2 - Walkthrough Steps Workbook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../08-Milestone Project - 2/02-Milestone Project 2 - Walkthrough Steps Workbook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08-Milestone Project - 2/04-Milestone Project 2 - Solution Code.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../08-Milestone Project - 2/04-Milestone Project 2 - Solution Code.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../13-Advanced Python Modules/06-StringIO.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../13-Advanced Python Modules/06-StringIO.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14-Advanced Python Objects and Data Structures/06-Advanced Python Objects Test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../14-Advanced Python Objects and Data Structures/06-Advanced Python Objects Test.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blackjack.py" beforeDir="false" afterPath="$PROJECT_DIR$/blackjack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deckOfCards/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/deckOfCards/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deckOfCards/dealer.py" beforeDir="false" afterPath="$PROJECT_DIR$/deckOfCards/dealer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deckOfCards/dealer_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/deckOfCards/dealer_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deckOfCards/deck.py" beforeDir="false" afterPath="$PROJECT_DIR$/deckOfCards/deck.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deckOfCards/hand.py" beforeDir="false" afterPath="$PROJECT_DIR$/deckOfCards/hand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deckOfCards/hand_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/deckOfCards/hand_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deckOfCards/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/deckOfCards/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deckOfCards/player_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/deckOfCards/player_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -259,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="846" />
     <option name="width" value="834" />
     <option name="height" value="1050" />
@@ -271,8 +235,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="Scope" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,19 +257,6 @@
               <item name="Project_2_Blackjack" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; Python 3.7 (code-learn-projects) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Project_2_Blackjack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (code-learn-projects) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python3.7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project_2_Blackjack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (code-learn-projects) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python3.7" type="462c0819:PsiDirectoryNode" />
-              <item name="unittest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -430,7 +381,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14225437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
